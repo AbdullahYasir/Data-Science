@@ -1,7 +1,6 @@
 # GPU Acceleration of k-Nearest Neighbors using RAPIDS
 ## I.   Abstract
 kNN is a simple machine learning algorithm used for classification and regression that predicts an unknown observation by comparing it with k most similar observations. CPU version of kNN is implemented on MNIST dataset using python’s scikit-learn that predicts the result taking 25 minutes While GPU version of kNN is implemented using RAPIDS cuML that takes only 2.5 seconds. This shows that 600x speedup can be achieved using cuML on kNN.
-Keywords—component, formatting, style, styling, insert
 
 ## II.  Introduction
 K-nearest neighbors (kNN) is a simple, easy to implement and powerful machine learning algorithm that can be used to solve both classification and regression problems. This algorithm belongs to the supervised machine learning domain and is widely used in data science, data mining and pattern recognition. The kNN algorithm assumes that similar data points exist in close proximity. It means that similar data is close to each other. Based on this assumption, it predicts an unknown observation by comparing it with k most similar observations in the training dataset.
